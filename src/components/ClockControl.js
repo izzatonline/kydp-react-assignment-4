@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Clock from "./Clock";
 
-function ClockSwitch() {
+function ClockControl() {
     const [isTurnedOn, setIsTurnedOn] = useState(true);
     const handleTurnonClick = () => {
         setIsTurnedOn(true);
@@ -38,4 +38,4 @@ function TurnoffButton(props) {
     );
 }
 
-export default ClockSwitch;
+export default ClockControl;

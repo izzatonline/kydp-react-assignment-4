@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
+import ClockControl from "./components/ClockControl";
 // import Clock from "./components/Clock";
-import ClockSwitch from "./components/ClockSwitch";
 
 function App() {
     // const [flag, setFlag] = useState(true);
@@ -10,7 +10,7 @@ function App() {
         <>
             <div>
                 <h1>Hello! The Time Now is:</h1>
-                <ClockSwitch />
+                <ClockControl />
             </div>
         </>
     );

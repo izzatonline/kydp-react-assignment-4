@@ -19,7 +19,7 @@ function Clock() {
     }
     setInterval(showDate, 1000);
 
-    return <h2>{time}</h2>;
+    return <h1>{time}</h1>;
 }
 
 export default Clock;
